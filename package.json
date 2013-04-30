@@ -1,12 +1,15 @@
 {
-  "author": "Enrico Marino <enrico.marino@email.com>",
+  "author": {
+    "name": "Enrico Marino",
+    "url": "http://onirame.com"
+  },
   "name": "object",
   "description": "JavaScript object utilities library",
-  "version": "0.1.0",
-  "homepage": "https://github.com/onirame/object",
+  "version": "0.1.1",
+  "homepage": "https://github.com/enricomarino/object",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/object.git"
+    "url": "git://github.com/enricomarino/object.git"
   },
   "main": "index.js",
   "engines": {
