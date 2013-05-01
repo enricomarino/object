@@ -1,1 +1,1 @@
-module.exports = require('./lib/object');
+module.exports = require('object');
