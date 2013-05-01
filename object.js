@@ -1,4 +1,3 @@
-
 /*!
  * object
  * JavaScript object utilities library
