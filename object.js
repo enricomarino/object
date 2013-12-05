@@ -529,7 +529,7 @@ object.values = function (self) {
 
 object.extend = function (self) {
   var sources = slice.call(arguments, 1)
-    , len = sources.length,
+    , len = sources.length
     , i
     , source
     , key
