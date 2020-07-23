@@ -12,11 +12,7 @@ var toString = object.toString
 var array = [];
 var slice = array.slice;
 
-/**
- * Expose module
- */
-
-var object = module.exports = {};
+var object = {};
 
 /**
  * Apply iterator to each value of object 'self' in context 'context'
@@ -529,7 +525,7 @@ object.values = function (self) {
 
 object.extend = function (self) {
   var sources = slice.call(arguments, 1)
-    , len = sources.length,
+    , len = sources.length
     , i
     , source
     , key
@@ -557,7 +553,7 @@ object.extend = function (self) {
 
 object.defaults = function (self) {
   var sources = slice.call(arguments, 1)
-    , len = sources.length,
+    , len = sources.length
     , i
     , source
     , key
@@ -614,3 +610,5 @@ object.isEmpty = function (self) {
 
   return true;
 };
+
+module.exports = object;
